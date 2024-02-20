@@ -20,3 +20,15 @@ strace ./server
 The output should look something like this
 
 ![Screenshot from 2024-02-20 23-53-37](https://github.com/OmarAzizi/Assembly-Web-Server/assets/110500643/525c236f-79cb-46ef-a1db-c0743ef7bc83)
+
+The server is waiting for a connection on port 8080, so se can go to the web browser on http://localhost:8080 to connect to it or run the following [curl](https://www.hostinger.com/tutorials/curl-command-with-examples-linux/#:~:text=Limit%20cURL%20Output-,What%20Is%20cURL%20Command%3F,used%20to%20troubleshoot%20connection%20issues.) command line
+```bash
+curl --output - http://localhost:8080
+```
+
+### Using curl
+![image](https://github.com/OmarAzizi/Assembly-Web-Server/assets/110500643/b78708b0-d363-46bb-a58c-4953614808b2)
+
+### Using the web browser
+![image](https://github.com/OmarAzizi/Assembly-Web-Server/assets/110500643/fb655d29-bb55-4722-9c3a-d243b06eda61)
+ 
