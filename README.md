@@ -8,5 +8,5 @@ nasm -f elf64 server.asm -o server
 
 Then we will use ld linker
 ```bash
-ld -o server server.asm
+ld -o server server.o
 ```
