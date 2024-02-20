@@ -11,4 +11,11 @@ Then we will use [ld](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_mono/ld.
 ld -o server server.o
 ```
 
+## Running the server
+I ran the server with [strace](https://en.wikipedia.org/wiki/Strace) so I can see the system-calls while running the server
+```bash
+strace ./server
+```
+
+The output should look something like this
 
