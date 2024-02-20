@@ -19,3 +19,4 @@ strace ./server
 
 The output should look something like this
 
+![Screenshot from 2024-02-20 23-53-37](https://github.com/OmarAzizi/Assembly-Web-Server/assets/110500643/525c236f-79cb-46ef-a1db-c0743ef7bc83)
